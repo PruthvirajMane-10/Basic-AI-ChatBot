@@ -1,0 +1,13 @@
+AI- FAQ chat bot for E- Learning website
+
+Task:-
+Create a basic AI chatbot that answer student quetions related to :- course, Exam, login issue 
+
+create a FAQ dataset (CSV or json)
+
+match user quetions cosine similarity return best response
+
+tech
+python
+NLP
+flask or django

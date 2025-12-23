@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Learning Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">🎓 Course Assistant</div>
+        <div id="chat-box">
+            <p class="bot-msg">Hi! Ask me about courses, exams, or login issues.</p>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type here...">
+            <button onclick="askBot()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        async function askBot() {
+            const input = document.getElementById('user-input');
+            const chatBox = document.getElementById('chat-box');
+            if(!input.value.trim()) return;
+
+            // 1. Add User Message to UI
+            chatBox.innerHTML += `<p class="user-msg"><b>You:</b> ${input.value}</p>`;
+            
+            // 2. Send to Flask Backend
+            const response = await fetch('/ask', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ "question": input.value })
+            });
+            const data = await response.json();
+
+            // 3. Add Bot Response to UI
+            chatBox.innerHTML += `<p class="bot-msg"><b>Bot:</b> ${data.answer}</p>`;
+            input.value = "";
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>

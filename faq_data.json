@@ -1,0 +1,71 @@
+
+{
+    "faq": [
+        {
+            "question": "What courses are available?",
+            "answer": "We offer courses in programming, data science, web development, and machine learning.",
+            "category": "Course"
+        },
+        
+        {
+            "question": "How can I enroll to this course?",
+            "answer": "You have to request support@chatbot.com for enrollment assistance.",
+            "category": "Course"
+        },
+        {
+            "question": "How long does each course take?",
+            "answer": "Course duration varies from 4 weeks to 6 months depending on the program.",
+            "category": "Course"
+        },
+        {
+            "question": "Can I access course materials offline?",
+            "answer": "Yes, all course materials  or notes can be downloaded for offline access.",
+            "category": "Course"
+        },
+        {
+            "question": "What is the course fee?",
+            "answer": "Course fees or cost range from Rs.999 to rs.9999 depending on the course level.",
+            "category": "Fees"
+        },
+        {
+            "question": "Do you offer  payment plans?",
+            "answer": "Yes, we offer flexible payment plans with 2-3 installments.",
+            "category": "Fees"
+        },
+        {
+            "question": "Is there a refund policy?",
+            "answer": "Full refund within 14 days of purchase if you haven't completed more than 10% of the course.",
+            "category": "Fees"
+        },
+        {
+            "question": "When is the next exam scheduled?",
+            "answer": "Exams are held monthly on the last Saturday of each month.",
+            "category": "Exam"
+        },
+        {
+            "question": "How do I register for an exam?",
+            "answer": "Register through your course dashboard at least 5 days before the exam date.",
+            "category": "Exam"
+        },
+        {
+            "question": "What is the exam format?",
+            "answer": "Exams consist of 50 multiple-choice questions and 2 essay questions.",
+            "category": "Exam"
+        },
+        {
+            "question": "How do I report a technical issue?",
+            "answer": "Contact our support team at support@chatbot.com or use the in-app help feature.",
+            "category": "Issue"
+        },
+        {
+            "question": "My certificate hasn't arrived yet. What should I do?",
+            "answer": "Certificates are issued within 5 business days. Please check your email spam folder or contact support.",
+            "category": "Issue"
+        },
+        {
+            "question": "I can't log into my account. How can I reset my password?",
+            "answer": "Click 'Forgot Password' on the login page and follow the instructions sent to your email.",
+            "category": "Issue"
+        }
+    ]
+}
