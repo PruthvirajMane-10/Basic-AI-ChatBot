@@ -41,7 +41,7 @@ Ensure you have Python installed. Check using python --version.
 Bash
 
 # Clone the repository
-git clone https://github.com/yourusername/elearning-faq-bot.git
+git clone https://github.com/PruthvirajMane-10/Basic-AI-ChatBot.git
 cd elearning-faq-bot
 
 # Install required libraries
