@@ -42,7 +42,7 @@ Bash
 
 # Clone the repository
 git clone https://github.com/PruthvirajMane-10/Basic-AI-ChatBot.git
-cd elearning-faq-bot
+cd Basic-AI-ChatBot
 
 # Install required libraries
 pip install flask scikit-learn numpy
